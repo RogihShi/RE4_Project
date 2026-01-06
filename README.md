@@ -1,8 +1,12 @@
-# RE4_Project
-cheat de resident evil 4 (2005) onde deixa a munição da handgun infinita, e toda vez que digitar "money" no jogo ganha 100k em dinheiro dentro do jogo.
+# RE4_Project / Cheat para Resident Evil 4 (2005)
+Descrição: Este cheat permite munição infinita para a Handgun e adiciona 100.000 (100k) em dinheiro ao digitar "money" durante a gameplay.
 
-Basta abrir o execultavel RE4Project.exe que ele ira abrir automaticamente o jogo na steam junto do cheat (lembrete o jogo deve ser original).
+Como usar: Basta abrir o executável RE4Project.exe. O programa abrirá automaticamente o jogo na Steam já com o cheat ativado. (Lembrete: O jogo deve ser original).
 
-Coisas que fiz no codigo: fiz ser possivel ter munição infinita na handgun e fiz que seja possivel ganhar 100k de dinheiro dentro jogo sempre que digitar "money".
+Desenvolvimento:
 
-oque foi feito com ajuda de IA (Gemini): ela me ajudou a encontra o "PID" automaticamente ao executar o pragama sem ter a necessidade de ir no genrenciador de tarefas e pegar o PID do RE4 e colocalo manualmente, ela ajudou a colocar um som sempre que o cheat de dinheiro for ativado, ela ajudou a fazer o jogo abrir automaticamente na steam ao execultar o programa do cheat sem ter a necessecidade de abrir o jogo primeiro e depois exeultar o programa.
+Minha parte: Implementei a munição infinita da Handgun através da busca pelos endereços de memória corretos e criei a função de input para ganhar dinheiro ao digitar "money".
+
+Ajuda da IA (Gemini): Auxiliou na automação da busca pelo "PID" (eliminando a necessidade de uso manual do Gerenciador de Tarefas), na implementação de um efeito sonoro ao ativar o código de dinheiro e na lógica para iniciar o jogo automaticamente pela Steam ao abrir o cheat.
+
+Nota do Desenvolvedor: Peço desculpas caso o cheat apresente limitações ou bugs. Desenvolvi este projeto com o intuito de aprender e praticar C/C++. Sou novo na área de modding e este é meu primeiro projeto; sei que há muito o que melhorar, mas acredito ser um bom começo.
